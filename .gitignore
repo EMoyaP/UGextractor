@@ -1,0 +1,18 @@
+﻿# Ignore local runtime data
+*.log
+*.jsonl
+*.session
+*.session-journal
+
+# Download/output folders
+**/descargas_web/
+**/descargas_telegram/
+**/fotos/
+**/videos/
+
+# Build/cache
+__pycache__/
+.venv/
+build/
+dist/
+*.spec
